@@ -1,0 +1,2 @@
+# codes
+setting up git
