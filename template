@@ -1,0 +1,12 @@
+#!/bin/bash
+echo -e "Provide the file name : \c"
+read -r file
+touch /workspace/$file.sh
+echo '#!/bin/bash' > /workspace/$file.sh
+echo '#Purpose : ' >> /workspace/$file.sh
+echo '#Version : ' >> /workspace/$file.sh
+echo '#Created Date : ' `date`  >> /workspace/$file.sh
+echo '#Modified Date : ' >> /workspace/$file.sh
+echo '#Author : Chinnu' >> /workspace/$file.sh
+echo '# START #' >> /workspace/$file.sh
+echo '# END #' >> /workspace/$file.sh
